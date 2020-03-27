@@ -8,7 +8,9 @@ This function uses Python inspect module to get the caller's global namespace; i
 
 Installation
 ------------
+```
 pip install pyversions
+```
 
 Examples
 --------
