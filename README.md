@@ -1,4 +1,4 @@
-# pyversions
+# [pyversions](https://pypi.org/project/pyversions/)
 
 Get versions of imported modules in current session: pyversions.versions()
 
