@@ -21,7 +21,7 @@ Examples
 >>> from pyversions import versions
 >>> versions();  # semicolon to avoid printing information twice
 ```
-[pyversions.ipynb](https://github.com/demotu/pyversions/blob/master/docs/pyversions.ipynb)
+ * [In a Jupyter notebook](https://github.com/demotu/pyversions/blob/master/docs/pyversions.ipynb)
 
 Help
 ----
