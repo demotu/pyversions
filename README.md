@@ -59,6 +59,8 @@ Examples
 >>> from pyversions import versions
 >>> versions();  # semicolon to avoid printing information twice
 
+[In a Jupyter notebook](https://github.com/demotu/pyversions/blob/master/docs/pyversions.ipynb)  
+
 Version history
 ---------------
 '0.0.1' :
@@ -66,3 +68,26 @@ Version history
 
 """
 ```
+
+How to cite this work
+---------------------
+Here is a suggestion to cite this GitHub repository:
+
+> Duarte, M. (2020) pyversions: A Python module to get versions of imported modules in current session. GitHub repository, https://github.com/demotu/pyversions.
+
+And a possible BibTeX entry:
+
+```tex
+@misc{Duarte2020,  
+    author = {Duarte, M.},
+    title = {pyversions: A Python module to get versions of imported modules in current session},  
+    year = {2020},  
+    publisher = {GitHub},  
+    journal = {GitHub repository},  
+    howpublished = {\url{https://github.com/demotu/pyversions}}  
+}
+```
+
+License
+-------
+The non-software content of this project is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), and the software code is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
