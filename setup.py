@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyversions",
-    version="0.0.1",
+    version="0.0.3",
     author="Marcos Duarte",
     author_email="duartexyz@gmail.com",
     description="Get versions of all imported modules in current session",

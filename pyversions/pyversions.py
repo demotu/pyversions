@@ -2,7 +2,7 @@
 """
 
 __author__ = "Marcos Duarte, https://github.com/BMClab/"
-__version__ = "0.0.1"
+__version__ = "0.0.3"
 __license__ = "MIT"
 
 import sys
@@ -49,8 +49,8 @@ def versions(glbs=None, show=True):
 
     Version history
     ---------------
-    '0.0.1' :
-        The first version
+    '0.0.3' :
+        Docs
 
     """
     if glbs is None:
