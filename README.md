@@ -1,6 +1,6 @@
 # [pyversions](https://pypi.org/project/pyversions/)
 
-Get versions of imported modules in current session: pyversions.versions()
+A Python module to get versions of imported modules in current session.
 
 Designed particularly to work within a Jupyter notebook.  
 Call this function in a cell just after all modules/functions are imported.  
@@ -21,7 +21,7 @@ Examples
 >>> from pyversions import versions
 >>> versions();  # semicolon to avoid printing information twice
 ```
- * [In a Jupyter notebook](https://github.com/demotu/pyversions/blob/master/docs/pyversions.ipynb)
+ * [pyversions.ipynb](https://github.com/demotu/pyversions/blob/master/docs/pyversions.ipynb)
 
 Help
 ----
@@ -58,8 +58,6 @@ Examples
 
 >>> from pyversions import versions
 >>> versions();  # semicolon to avoid printing information twice
-
-[In a Jupyter notebook](https://github.com/demotu/pyversions/blob/master/docs/pyversions.ipynb)  
 
 Version history
 ---------------
