@@ -28,7 +28,7 @@ conda install -c duartexyz pyversions
 >>> versions();  # semicolon to avoid printing information twice
 ```
 
-- [In a Jupyter notebook](https://github.com/demotu/pyversions/blob/master/docs/pyversions.ipynb)
+- [pyversions.ipynb](https://github.com/demotu/pyversions/blob/master/docs/pyversions.ipynb)
 
 ## Help
 
