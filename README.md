@@ -89,7 +89,8 @@ And a possible BibTeX entry:
 ```tex
 @software{marcos_duarte_2021_4599146,
   author       = {Marcos Duarte},
-  title        = {demotu/pyversions:},
+  title        = {{A Python module to get versions of imported 
+                   modules in current session}},
   month        = mar,
   year         = 2021,
   publisher    = {Zenodo},
