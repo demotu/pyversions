@@ -1,5 +1,7 @@
 # [pyversions](https://pypi.org/project/pyversions/)
 
+[![DOI](https://zenodo.org/badge/250615934.svg)](https://zenodo.org/badge/latestdoi/250615934)
+
 Get versions of imported modules in current session: pyversions.versions()
 
 Designed particularly to work within a Jupyter notebook.  
@@ -85,13 +87,15 @@ Here is a suggestion to cite this GitHub repository:
 And a possible BibTeX entry:
 
 ```tex
-@misc{Duarte2020,  
-    author = {Duarte, M.},
-    title = {pyversions: A Python module to get versions of imported modules in current session},  
-    year = {2020},  
-    publisher = {GitHub},  
-    journal = {GitHub repository},  
-    howpublished = {\url{https://github.com/demotu/pyversions}}  
+@software{marcos_duarte_2021_4599146,
+  author       = {Marcos Duarte},
+  title        = {demotu/pyversions:},
+  month        = mar,
+  year         = 2021,
+  publisher    = {Zenodo},
+  version      = {v0.0.3},
+  doi          = {10.5281/zenodo.4599146},
+  url          = {https://doi.org/10.5281/zenodo.4599146}
 }
 ```
 
