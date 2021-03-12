@@ -82,15 +82,15 @@ Version history
 
 Here is a suggestion to cite this GitHub repository:
 
-> Marcos Duarte. (2021, March 11). A Python module to get versions of imported modules in current session (Version v0.0.3). Zenodo. http://doi.org/10.5281/zenodo.4599146
+> Marcos Duarte. (2021). pyversions: A Python module to get versions of imported modules in current session (Version v0.0.3). Zenodo. http://doi.org/10.5281/zenodo.4599146
 
 And a possible BibTeX entry:
 
 ```tex
 @software{marcos_duarte_2021_4599146,
   author       = {Marcos Duarte},
-  title        = {{A Python module to get versions of imported 
-                   modules in current session}},
+  title        = {{pyversions: A Python module to get versions of 
+                   imported modules in current session}},
   month        = mar,
   year         = 2021,
   publisher    = {Zenodo},
