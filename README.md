@@ -82,7 +82,7 @@ Version history
 
 Here is a suggestion to cite this GitHub repository:
 
-> Duarte, M. (2020) pyversions: A Python module to get versions of imported modules in current session. GitHub repository, <https://github.com/demotu/pyversions>.
+> Marcos Duarte. (2021, March 11). A Python module to get versions of imported modules in current session (Version v0.0.3). Zenodo. http://doi.org/10.5281/zenodo.4599146
 
 And a possible BibTeX entry:
 
