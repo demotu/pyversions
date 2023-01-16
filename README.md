@@ -1,5 +1,6 @@
 # [pyversions](https://pypi.org/project/pyversions/)
 
+[![PyPI version](https://badge.fury.io/py/pyversions.svg)](https://badge.fury.io/py/pyversions)
 [![DOI](https://zenodo.org/badge/250615934.svg)](https://zenodo.org/badge/latestdoi/250615934)
 
 Get versions of imported modules in current session: pyversions.versions()
