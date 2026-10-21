@@ -3,6 +3,17 @@
 [![PyPI version](https://badge.fury.io/py/pyversions.svg)](https://badge.fury.io/py/pyversions)
 [![DOI](https://zenodo.org/badge/250615934.svg)](https://zenodo.org/badge/latestdoi/250615934)
 
+> **This package is no longer maintained.** Version 0.0.4 is the last one; it works with current Python versions, but it will not be updated.
+> For new work, use [watermark](https://pypi.org/project/watermark/) or [session-info2](https://pypi.org/project/session-info2/), which also work in scripts and in Jupyter and marimo notebooks:
+>
+> ```python
+> from watermark import watermark
+> print(watermark(iversions=True, globals_=globals()))
+>
+> import session_info2
+> session_info2.session_info()
+> ```
+
 Get versions of imported modules in current session: pyversions.versions()
 
 Designed particularly to work within a Jupyter or [marimo](https://marimo.io) notebook.  
