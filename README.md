@@ -100,16 +100,17 @@ Version history
 
 Here is a suggestion to cite this software, with its concept DOI, which always resolves to the latest version (to cite a specific version, use its DOI listed on [Zenodo](https://doi.org/10.5281/zenodo.4599145)):
 
-> Marcos Duarte. (2021). pyversions: A Python module to get versions of imported modules in current session. Zenodo. https://doi.org/10.5281/zenodo.4599145
+> Marcos Duarte. (2026). pyversions: A Python module to get versions of imported modules in current session (v0.0.4). Zenodo. https://doi.org/10.5281/zenodo.4599145
 
 And a possible BibTeX entry:
 
 ```tex
 @software{duarte_pyversions,
-  author       = {Marcos Duarte},
+  author       = {Duarte, Marcos},
   title        = {{pyversions: A Python module to get versions of imported modules in current session}},
-  year         = 2021,
+  year         = 2026,
   publisher    = {Zenodo},
+  version      = {v0.0.4},
   doi          = {10.5281/zenodo.4599145},
   url          = {https://doi.org/10.5281/zenodo.4599145}
 }
