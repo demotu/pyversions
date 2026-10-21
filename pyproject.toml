@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyversions"
+dynamic = ["version"]
+description = "Get versions of imported modules in current session"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Marcos Duarte", email = "duartexyz@gmail.com" }]
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["versions", "reproducibility", "environment", "notebook"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/demotu/pyversions"
+Documentation = "https://github.com/demotu/pyversions/tree/master/docs"
+Issues = "https://github.com/demotu/pyversions/issues"
+
+[tool.setuptools]
+packages = ["pyversions"]
+
+[tool.setuptools.dynamic]
+version = { attr = "pyversions.__version__" }
+
+[tool.pytest.ini_options]
+filterwarnings = ["error::DeprecationWarning:pyversions", "ignore:.*non-interactive:UserWarning"]
