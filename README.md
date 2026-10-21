@@ -98,23 +98,20 @@ Version history
 
 ## How to cite this work
 
-Here is a suggestion to cite this GitHub repository:
+Here is a suggestion to cite this software, with its concept DOI, which always resolves to the latest version (to cite a specific version, use its DOI listed on [Zenodo](https://doi.org/10.5281/zenodo.4599145)):
 
-> Marcos Duarte. (2021). pyversions: A Python module to get versions of imported modules in current session (Version v0.0.3). Zenodo. http://doi.org/10.5281/zenodo.4599146
+> Marcos Duarte. (2021). pyversions: A Python module to get versions of imported modules in current session. Zenodo. https://doi.org/10.5281/zenodo.4599145
 
 And a possible BibTeX entry:
 
 ```tex
-@software{marcos_duarte_2021_4599146,
+@software{duarte_pyversions,
   author       = {Marcos Duarte},
-  title        = {{pyversions: A Python module to get versions of 
-                   imported modules in current session}},
-  month        = mar,
+  title        = {{pyversions: A Python module to get versions of imported modules in current session}},
   year         = 2021,
   publisher    = {Zenodo},
-  version      = {v0.0.3},
-  doi          = {10.5281/zenodo.4599146},
-  url          = {https://doi.org/10.5281/zenodo.4599146}
+  doi          = {10.5281/zenodo.4599145},
+  url          = {https://doi.org/10.5281/zenodo.4599145}
 }
 ```
 
