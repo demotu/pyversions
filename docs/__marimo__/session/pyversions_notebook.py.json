@@ -1,0 +1,133 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.2",
+    "script_metadata_hash": "c7ba89b33e9712fb4cbdde9abdd4757b"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "6a5da836f075752653f5767f21b032a6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"pyversions\">pyversions</h1>\n<span class=\"paragraph\">A Python module to get versions of imported modules in current session.\n<a href=\"https://github.com/demotu/pyversions\" rel=\"noopener noreferrer\" target=\"_blank\">https://github.com/demotu/pyversions</a></span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "9805564bbb4382543d4a51626a7ee84a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"installation\">Installation</h2>\n<div class=\"language-bash codehilite\"><pre><span></span><code>pip<span class=\"w\"> </span>install<span class=\"w\"> </span>pyversions\n</code></pre></div>\n<span class=\"paragraph\">Or</span>\n<div class=\"language-bash codehilite\"><pre><span></span><code>conda<span class=\"w\"> </span>install<span class=\"w\"> </span>-c<span class=\"w\"> </span>duartexyz<span class=\"w\"> </span>pyversions\n</code></pre></div>\n<span class=\"paragraph\">To run this <a href=\"https://marimo.io\" rel=\"noopener noreferrer\" target=\"_blank\">marimo</a> notebook in an isolated environment with all its dependencies:</span>\n<div class=\"language-bash codehilite\"><pre><span></span><code>uvx<span class=\"w\"> </span>marimo<span class=\"w\"> </span>edit<span class=\"w\"> </span>--sandbox<span class=\"w\"> </span>pyversions_notebook.py\n</code></pre></div></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "1e03ba16787d699e71b0d0dde6520d97",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"examples\">Examples</h2>\n<span class=\"paragraph\">Call <code>versions()</code> after all modules are imported; it prints information about the environment and the versions of the imported modules, and returns the same information as a list:</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "b82aebe9fc44aa65549bdb4d9077fbe6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "51cb11745df60ae5fe84bfe2e5f17670",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Linux 7.0.0-38-generic 64-bit #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026\nCPython 3.14.7 (main, Aug 14 2026, 15:35:28) [Clang 22.1.3 ]\nOct 20 2026, 22:40:33\n\nModule            Version\nmarimo             0.25.2\nmatplotlib         3.11.2\nnumpy               2.5.4\nscipy              1.18.1\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "PKri",
+      "code_hash": "69789b03b05093ecdec417451bf965d0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">The returned list has the operating system, the Python version, the date, and the name and version of each module:</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "caf9b6b99962bf5c2264824231d7a40c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"Linux 7.0.0-38-generic 64-bit #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026\", \"CPython 3.14.7 (main, Aug 14 2026, 15:35:28) [Clang 22.1.3 ]\", \"Oct 20 2026, 22:40:33\", [\"marimo\", \"0.25.2\"], [\"matplotlib\", \"3.11.2\"], [\"numpy\", \"2.5.4\"], [\"scipy\", \"1.18.1\"]]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "86e7e24d3fee150366dcf214d861b351",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Pass a dictionary of names and modules (for example, <code>globals()</code>) to get the versions of other modules, and set <code>show=False</code> to not print:</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "dce55d3b8225fb48a5f48c0674344a04",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"Linux 7.0.0-38-generic 64-bit #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026\", \"CPython 3.14.7 (main, Aug 14 2026, 15:35:28) [Clang 22.1.3 ]\", \"Oct 20 2026, 22:40:34\", [\"numpy\", \"2.5.4\"]]"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}

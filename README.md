@@ -5,7 +5,7 @@
 
 Get versions of imported modules in current session: pyversions.versions()
 
-Designed particularly to work within a Jupyter notebook.  
+Designed particularly to work within a Jupyter or [marimo](https://marimo.io) notebook.  
 Call this function in a cell just after all modules/functions are imported.  
 This function uses Python inspect module to get the caller's global namespace; it should work, if not, pass globals() as a parameter.
 
@@ -31,7 +31,19 @@ conda install -c duartexyz pyversions
 >>> versions();  # semicolon to avoid printing information twice
 ```
 
-- [pyversions.ipynb](https://github.com/demotu/pyversions/blob/master/docs/pyversions.ipynb)
+More examples are in a [marimo](https://marimo.io) notebook in the [docs](https://github.com/demotu/pyversions/tree/master/docs) directory. Run it in your browser, no installation needed:
+
+| Notebook | molab | marimo.app |
+|---|---|---|
+| [pyversions](https://molab.marimo.io/github/demotu/pyversions/blob/master/docs/pyversions_notebook.py) | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/demotu/pyversions/blob/master/docs/pyversions_notebook.py/wasm) | [![Open with marimo](https://marimo.io/shield.svg)](https://marimo.app/github.com/demotu/pyversions/blob/master/docs/pyversions_notebook.py) |
+
+The notebook name links to a static preview with the outputs; the badges run the notebook in your browser with [WebAssembly](https://docs.marimo.io/guides/wasm/).
+
+Or run it locally:
+
+```bash
+uvx marimo edit --sandbox docs/pyversions_notebook.py
+```
 
 ## Help
 
@@ -54,7 +66,7 @@ info : list of strings
 
 Notes
 -----
-Designed particularly to work within a Jupyter notebook.
+Designed particularly to work within a Jupyter or marimo notebook.
 Call this function in a cell just after all modules/functions are imported.
 This function uses Python inspect module to get the caller's global
 namespace; it should work, if not, pass globals() as a parameter.
@@ -69,12 +81,17 @@ Examples
 >>> from pyversions import versions
 >>> versions();  # semicolon to avoid printing information twice
 
-[In a Jupyter notebook](https://github.com/demotu/pyversions/blob/master/docs/pyversions.ipynb)  
+[In a marimo notebook](https://github.com/demotu/pyversions/blob/master/docs/pyversions_notebook.py)
 
 Version history
 ---------------
-'0.0.1' :
-    The first version
+'0.0.4' :
+    Use importlib.metadata (pkg_resources was removed from setuptools)
+    Find the distribution of modules whose import name is different
+    Fix the alignment of the columns and versions that are not strings
+    A module imported with different names is listed once
+'0.0.3' :
+    Docs
 
 """
 ```
