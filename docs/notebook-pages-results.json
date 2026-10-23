@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-23",
+  "base_commit": "c7599fa4e861e86e27f810a5566030ec28014116",
+  "source_directory": "docs",
+  "saved_directory": "docs/html",
+  "editable_directory": ".",
+  "url_prefix": "/pyversions/",
+  "publishing_environment": {
+    "python": "3.14.7",
+    "marimo": "0.25.2",
+    "docs_group_python": ">=3.10",
+    "package_python": ">=3.9"
+  },
+  "test_results": {
+    "python314": 24,
+    "python39": 9,
+    "python39_skips": 2
+  },
+  "native_saved_exports_passed": 1,
+  "native_editable_exports_passed": 1,
+  "saved_cells": 9,
+  "saved_figure_cells": 0,
+  "browser_method": "Actual Chromium WASM Python under the project URL prefix, with molab and marimo.app blocked; no computation or data stubs.",
+  "browser_result": {
+    "repo": "pyversions",
+    "source": "docs/pyversions_notebook.py",
+    "html": "pyversions_notebook.html",
+    "source_sha256": "b42d5fed2f0b0661d784cb86c1dbc43876206573b86f80011485d6b7b652ba00",
+    "html_sha256": "4139d5d0bf7ac5fb220c4c2381be3507f0a15076893dbb693d0ec36e2f4c8e3f",
+    "cell_states": {
+      "idle": 9
+    },
+    "plots": 0,
+    "expected_plot_cells": 0,
+    "version_outputs_verified": true,
+    "keyboard_edit_results": [
+      42,
+      48
+    ],
+    "mode_switch_both_directions": true,
+    "status": "passed",
+    "page_errors": [],
+    "seconds": 27.4
+  },
+  "link_audit": {
+    "repo": "pyversions",
+    "source_and_html_hashes": "passed",
+    "local_asset_and_page_targets": 191,
+    "readme_root_and_saved_links": "passed",
+    "plain_molab_url": true,
+    "original_cache_sha256": {
+      "docs/__marimo__/session/pyversions_notebook.py.json": "5240e5694c2494a4859efa6dbefdb60be524cab40d323653455a62df82ddb36c"
+    },
+    "package_notebook_release_ci_unchanged": true,
+    "superpowers_ignored": true,
+    "new_file_whitespace_check": "passed"
+  },
+  "wheel_metadata": "Built wheel retains original version, Python >=3.9 and original runtime dependencies. Publishing tools are absent from runtime requirements.",
+  "package_notebook_cache_citation_and_release_ci_unchanged": true,
+  "pages_source": "Already configured as workflow; inspected through GitHub API without changing remote settings.",
+  "independent_review": "No Critical or Important findings. Two psd2 documentation/copy leftovers were corrected before completion. No deferred findings.",
+  "exporter_sha256": {
+    "scripts/export_notebooks.py": "46972b10db6774c96490daa704544ec5f522585fe3d640df9591cdab546d8ea3",
+    "scripts/export_editable.py": "89841e57e70ee07e14f9c52317ca4a4f8d0e815737c66980eb36993b3d1d5331"
+  },
+  "internal_plans": "Local-only superpowers notes are ignored and must not be committed or pushed.",
+  "publication_performed": false,
+  "limits": "Local native exports, links, default examples, actual keyboard editing, mode switching and existing plot controls verified. CI and full Cayman/Pages deployment are checked after this authorized push. Runtime/packages and saved display assets require Internet; not every optional parameter combination is tested.",
+  "browser_harness_note": "Initial control/output selectors were corrected after inspecting actual DOM: automatic-search checkbox by accessible name; printed versions from console-output-area. Retesting passed without notebook changes.",
+  "publication_recording_stage": "Verification captured before the prepared commit. The user subsequently authorized push; CI and live Pages results are checked after publication and reported in the final handoff."
+}

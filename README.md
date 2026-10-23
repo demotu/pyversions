@@ -31,13 +31,16 @@ conda install -c duartexyz pyversions
 >>> versions();  # semicolon to avoid printing information twice
 ```
 
-More examples are in a [marimo](https://marimo.io) notebook in the [docs](https://github.com/demotu/pyversions/tree/master/docs) directory. Run it in your browser, no installation needed:
+The examples are a [marimo](https://marimo.io) notebook in [docs/](https://github.com/demotu/pyversions/tree/master/docs). Click its name to open the **editable GitHub Pages version**. Click **Run all**, then edit and rerun cells to experiment. Download the Python file to keep your changes; browser edits do not update this repository.
 
-| Notebook | molab | marimo.app |
-|---|---|---|
-| [pyversions](https://molab.marimo.io/github/demotu/pyversions/blob/master/docs/pyversions_notebook.py) | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/demotu/pyversions/blob/master/docs/pyversions_notebook.py/wasm) | [![Open with marimo](https://marimo.io/shield.svg)](https://marimo.app/github.com/demotu/pyversions/blob/master/docs/pyversions_notebook.py) |
+- [pyversions](https://demotu.github.io/pyversions/pyversions_notebook.html) [![molab][molab-badge]](https://molab.marimo.io/github/demotu/pyversions/blob/master/docs/pyversions_notebook.py) [![marimo][marimo-badge]](https://marimo.app/github.com/demotu/pyversions/blob/master/docs/pyversions_notebook.py)
 
-The notebook name links to a static preview with the outputs; the badges run the notebook in your browser with [WebAssembly](https://docs.marimo.io/guides/wasm/).
+The notebook links to **Read saved outputs** in [docs/html/](https://demotu.github.io/pyversions/docs/html/). That page contains the saved environment and module version results and can be read without running Python. Both modes are hosted on this repository's GitHub Pages site independently of molab and marimo.app. The compact badges provide alternative interactive services; their molab links use the standard execution mode.
+
+Editable Pages notebooks run Python through [WebAssembly](https://docs.marimo.io/guides/wasm/). They download their runtime and packages, and saved pages load display assets, so keep an Internet connection. GitHub Actions discovers notebooks, refreshes saved outputs and publishes the editable collection on every push to `master`. See [scripts/README.md](scripts/README.md) to update or preview the exports locally.
+
+[molab-badge]: https://img.shields.io/badge/molab-334155?style=flat-square
+[marimo-badge]: https://img.shields.io/badge/marimo-235b43?style=flat-square
 
 Or run it locally:
 

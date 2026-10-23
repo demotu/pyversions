@@ -1,0 +1,14 @@
+{
+  "exporter": "marimo export html",
+  "notebooks": [
+    {
+      "source": "docs/pyversions_notebook.py",
+      "source_sha256": "b42d5fed2f0b0661d784cb86c1dbc43876206573b86f80011485d6b7b652ba00",
+      "shared_inputs_sha256": "acfdf1910dcb5d9112f5bac7f47f346279c180ee01ddf4763782e0c2de8c9b16",
+      "html": "pyversions_notebook.html",
+      "html_sha256": "601b0addee748f09fbb529f928e51b7f113160c658ce0ad914315ced5c94ed24",
+      "cells": 9,
+      "cells_with_saved_figures": 0
+    }
+  ]
+}

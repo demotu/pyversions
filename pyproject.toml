@@ -23,6 +23,12 @@ classifiers = [
 [project.optional-dependencies]
 test = ["pytest"]
 
+[dependency-groups]
+docs = ["marimo==0.25.2", "matplotlib>=3.9", "numpy", "scipy", "ruff>=0.15"]
+
+[tool.uv.dependency-groups]
+docs = { requires-python = ">=3.10" }
+
 [project.urls]
 Homepage = "https://github.com/demotu/pyversions"
 Documentation = "https://github.com/demotu/pyversions/tree/master/docs"
